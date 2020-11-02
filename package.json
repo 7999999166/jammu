@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "rm -rf dist/ && parcel build index.html",
-    "deploy": "npm build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "homepage": "https://7999999166.github.io/jammu",
   "keywords": [],
